@@ -4,6 +4,10 @@ import platform
 from tkinter import *
 
 
+def retrieve_input():
+    input = self.myText_Box.get("1.0",END)
+
+
 def dosAttack():
   value = int(inputType.get())
   str_value = str(value)
@@ -38,7 +42,7 @@ if __name__ == "__main__":
     space_label2 = Label(mainWin, text = "\n")
     
 
-    inputType = StringVar() #자료형 지정
+    inputType = StringVar() #�옄猷뚰삎 吏��젙
       
     
 
