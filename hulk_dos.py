@@ -44,16 +44,16 @@ def attack():
     port = (int(rt))
 
     os.system("clear")
-    #os.system("figlet Attack Starting")
+
     print("[>                      ] 0% ")
     time.sleep(0.5)
-    print("[=====>      H          ] 25%")
+    print("[=====>                ] 25%")
     time.sleep(0.5)
-    print("[==========> U          ] 50%")
+    print("[==========>           ] 50%")
     time.sleep(0.5)
-    print("[==========  L ====>    ] 75%")
+    print("[==============>    ] 75%")
     time.sleep(0.5)
-    print("[==========  K ========>] 100%")
+    print("[==================>] 100%")
     time.sleep(3)
     sent = 0
     while True:
