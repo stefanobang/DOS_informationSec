@@ -34,6 +34,7 @@ def attack():
 
     os.system("clear")
 
+    # for test usage
     #ip = raw_input("IP Target : ")
     #port = input("Port       : ")
     global pr
