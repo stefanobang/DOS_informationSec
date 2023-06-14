@@ -33,9 +33,6 @@ class Logger:
 
 
 
-
-
-
 def init_socket(host, port, tls=False, timeout=5):
    sock = socks.socksocket()
    sock.settimeout(timeout)
@@ -309,6 +306,7 @@ def main():
 
       content_type_header = "Content-Type: application/x-www-form-urlencoded"
       content_length_header = "Content-Length: " + str(args.length)
+      
 
       print("Attacking %s with %d sockets." % (host, socket_count))
       print("Creating sockets...") 
