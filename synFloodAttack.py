@@ -1,3 +1,6 @@
+# This project was based on https://cafe.naver.com/whitehackerexpress/
+# Majoroity of the code was taken from the above link
+# I do not take credit for the code below
 from scapy.all import *
 import random
 
