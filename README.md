@@ -3,7 +3,12 @@
 Some of the scripts were used from other github projects.
 If the project utilized scripts that are not originated from us, the github links are provided on top of the file.
 
-**Quick Disclaimer**: The porject is only for educational purposes. This project should not be used with malicious intent. Most of this porject was tested on Ubuntu.
+**Quick Disclaimer**:
+
+- The project is only for educational purposes.
+- This project should not be used with malicious intent.
+- Most of this porject was tested on Ubuntu and Window environment.
+- Please note that the I the author do not hold any responsibility for the use of this project.
 
 ## Preview
 
