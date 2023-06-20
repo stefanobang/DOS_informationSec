@@ -24,7 +24,7 @@ If the project utilized scripts that are not originated from us, the github link
 
 <summary>hulk_dos2.py example output</summary>
     <p align="center">
-        <img src="hhttps://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example2-Hulkdos1.jpg" width="250" height="250">        
+        <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1-Hulkdos2.jpg" width="250" height="250">        
         <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1.png" width="250" height="250">        
     </p>
 
