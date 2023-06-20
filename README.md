@@ -3,7 +3,7 @@
 Some of the scripts were used from other github projects.
 If the project utilized scripts that are not originated from us, the github links are provided on top of the file.
 
-**Quick Disclaimer**: The porject is only for educational purposes. This project should not be used with malicious intent.
+**Quick Disclaimer**: The porject is only for educational purposes. This project should not be used with malicious intent. Most of this porject was tested on Ubuntu.
 
 ## Preview
 
@@ -11,9 +11,20 @@ If the project utilized scripts that are not originated from us, the github link
     <p align="center">
         <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1-synFloodattack.jpg" width="250" height="250">        
     </p>
+<summary>rudy.py example output</summary>
+    <p align="center">
+        <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1-rudy.jpg" width="250" height="250">        
+    </p>
+
+<summary>hulk_dos1.py example output</summary>
+    <p align="center">
+        <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1-Hulkdos1.jpg" width="250" height="250">       
+        <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example2-Hulkdos1.jpg" width="250" height="250">       
+    </p>
 
 <summary>hulk_dos2.py example output</summary>
     <p align="center">
+        <img src="hhttps://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example2-Hulkdos1.jpg" width="250" height="250">        
         <img src="https://github.com/stefanobang/DOS_informationSec/blob/master/resource/Example1.png" width="250" height="250">        
     </p>
 
